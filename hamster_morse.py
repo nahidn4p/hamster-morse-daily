@@ -43,10 +43,10 @@ for i in code.split():
         match j:
             case '.':
                 pyautogui.click()
-                sleep(0.5)
+                sleep(0.7)
             case '-':
                 pyautogui.mouseDown()
                 sleep(0.5)
                 pyautogui.mouseUp()
-                sleep(0.5)
-    sleep(0.7)
+                sleep(0.7)
+    sleep(2)
